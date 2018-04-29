@@ -1,0 +1,11 @@
+$background-color: #eee;
+$text-color: #444;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  text-align: center;
+}
+
+@import 'GeocodeResult';
+@import 'Map';
